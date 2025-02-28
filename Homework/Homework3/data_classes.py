@@ -30,7 +30,7 @@ class student (person):
   
 ## this part (below) is what online was saying to add 
 def save_to_json(self, filename):
-   with open (filename,'w') as f:
+   with open (filename,'a') as f:
       json.dump(self.to_dict(),f,indent=4 )
  
 @staticmethod
