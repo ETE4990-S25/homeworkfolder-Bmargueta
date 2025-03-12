@@ -1,0 +1,70 @@
+## hw 6 Brianna Argueta 
+player_input= int(input ( " give me a number 1-10 to find out if its even or odd:"))
+even_or_odd= lambda x: "Even" if x % 2 == 0 else "Odd"
+print(even_or_odd (player_input))
+
+## part 2 
+
+##issue unknown 
+from functools import reduce
+sum_of_list = lambda 1st: reduce (lambda x, y: x + y , 1st )
+player_numbers=input("In put numbers here with , between":)
+numbers= [input]
+result =sum_of_list ( numbers)
+print (result)
+
+##working one  Lambda
+from functools import reduce
+sum_list = lambda lst: reduce(lambda x, y: x + y, lst)
+numbers = [1, 2, 3, 4, 5,6 ,7 ,8,9 ,10 ]
+result = sum_list(numbers)
+print(f"your sum :{result}")  
+
+
+## me relizing that it was ment to be all together 
+from functools import reduce
+sum_list = lambda lst: reduce(lambda x, y: x + y, lst)
+numbers = [1, 2, 3, 4, 5,6 ,7 ,8,9 ,10 ]
+result = sum_list(numbers)
+print(f"your sum :{result}")  
+
+#sorting  lambda numbers and color
+
+data =[(1,'flower pink'), (2, 'chip yellow'),(3,'pods white'), (4,'owala blue')]
+sorted_data = sorted(data , key = lambda x: x[1])
+print (f"sorted by colors : {sort_data}")
+
+#filtering w/ lambda
+
+
+#sum
+player_input= int(input ( " give me a number 1-10 to find out if its even or odd:"))
+even_or_odd= lambda x: "Even" if x % 2 == 0 else "Odd"
+print(even_or_odd (player_input))
+
+#map 
+
+numbers = [1,2,3,4,5,6,7,8,9,10]
+
+squred_numbers = list (map(lambda x : x**2, numbers))
+
+print(f" the numbers squred : {squared_number}")
+
+#reduced numbers lambda 
+
+numbers = [1,2,3,4,5,6,7,8,9,10]
+product = reduce(lambda x, y : x* y numbers)
+print (f"Product of numbers: {product}")
+
+#enumrate with or without lambda 
+colors= [f''flower pink'), ( 'chip yellow'),('pods white'), ('owala blue')]'
+for index,value in enumerate(colors):
+    print(f'index {index}: {value}')
+
+#enumerating w/ lambda
+enumerated_colors = list(enumerate(fruits))
+sorted_enumerated_colors= sorted (enumerated_colors, key lambda x:x [0])
+
+#zip with / lambda
+
+

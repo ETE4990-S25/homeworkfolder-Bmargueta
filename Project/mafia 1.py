@@ -6,7 +6,7 @@ git push -u origin main
 ## story outline ideas 
 
 ## muderer  - muder methods - pillow - knife - gun- 
-## detective -  pick a suspect - follow tracks - look for clues 
+## detective -  pick a suspect - follow tracks - look for clues - waiting out perp 
 ## doctor  - save lives - 
 ## reporter  - annouce obiturrys - anouce muder method where the vitim was found
 ## narrator  - anoucements- Intro  - ground work - snarky comments 
