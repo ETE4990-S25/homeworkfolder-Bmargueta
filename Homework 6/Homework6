@@ -66,5 +66,10 @@ enumerated_colors = list(enumerate(fruits))
 sorted_enumerated_colors= sorted (enumerated_colors, key lambda x:x [0])
 
 #zip with / lambda
+names = ['pat', 'jess', 'kay']
+ages= [ 24, 22, 22 ]
+zipped = list (zip (names ,ages))
+print (f"zipped are : {zipped}")
 
-
+formatted = list (map(lambda x: f" {x [o]} is {x[1]} years of age ", zipped))
+print (f"formated and zipped info: {formatted}")
